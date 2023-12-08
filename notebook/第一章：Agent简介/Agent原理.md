@@ -135,6 +135,7 @@ OpenAI应用研究主管翁丽莲(Lilian Weng)撰写过一篇blog: [LLM Powered 
 可以看到，在我发出指令后，Agent就已经将我的指令拆分成“天气查询”和“画图”这2个子任务了，并成功的调用了对应的工具完成任务~
 
 参考文献：
+
 [OpenAI打了个“响指”，AI Agent厂商重建护城河｜36氪新风向-36氪 (36kr.com)](https://www.36kr.com/p/2550551402240391)
 
 [AI is about to completely change how you use computers | Bill Gates (gatesnotes.com)](https://www.gatesnotes.com/AI-agents?ref=blog.glasp.co)
