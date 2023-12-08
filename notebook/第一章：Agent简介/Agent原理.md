@@ -4,11 +4,11 @@
 
 人们一直期待能有个强悍的人工智能助手，帮助我们处理日常中各种复杂的问题，完成各种琐碎的任务。而以ChatGPT为首的LLM（大语言模型），因其“全知全能”的表现而闻名全球，同时也在学界和业界消灭了大多数的传统NLP（自然语言处理）任务，开辟了全新的NLP范式，同时被人们寄予厚望，将其看做是通向AGI（通用人工智能）的曙光。
 
-<img src="./imgs/使用ChatGPT.png" width="75%">
+<img src="./imgs/使用ChatGPT.png" width="50%">
 
 尽管ChatGPT的知识储备接近“全知全能”，但当你试着以AI助手的方式使用时就会发现，它只会“动嘴皮子”，不会“动手”，同时也不能回答一些如天气，时间之类的简单问题。
 
-<img src="./imgs/问天气.png" width="75%">
+<img src="./imgs/问天气.png" width="50%">
 
 ChatGPT解释其为什么无法提供天气信息
 
@@ -22,7 +22,7 @@ ChatGPT解释其为什么无法提供天气信息
 
 对于GPT这类生成式语言模型而言，其本质上是一个自回归语言模型（Autoregressive Language Model），所谓自回归语言模型，就是基于序列数据的概率分布，通过建模当前词语与前面已生成词语的条件概率来预测下一个词语。
 
-<img src="./imgs/LLM简单原理.png" width="75%">
+<img src="./imgs/LLM简单原理.png" width="60%">
 
 比如上图的例子， 模型输入不完整的一句话，随后每步会迭代输出下一个词组，直到结束。
 
@@ -52,7 +52,7 @@ Agent并非ChatGPT升级版，它不仅告诉你“如何做”，更会帮你�
 
 OpenAI应用研究主管翁丽莲(Lilian Weng)撰写过一篇blog: [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)，将 Agents 定义为LLM + memory + planning skills + tool use，即大语言模型、记忆、任务规划、工具使用的集合。
 
-<img src="./imgs/Agent架构.png" width="75%">
+<img src="./imgs/Agent架构.png" width="100%">
 
 其中，LLM是Agent的大脑，属于“中枢”模型，要求有以下3种能力：
 
@@ -83,14 +83,14 @@ OpenAI应用研究主管翁丽莲(Lilian Weng)撰写过一篇blog: [LLM Powered 
 
 <img src="./imgs/创建Agent_1.png">
 
-1. 检查配置&提供Tool
+2. 检查配置&提供Tool
 咱们点进左上角的“Configure”，这里就是Agent的配置了，可以看到配置非常的简单，就是用自然语言做prompt描述功能而已。如果你是个Prompt Engineer，那就大胆的自己写prompt进去试试吧。
 
 另外下面会有一栏“Capabilities”，这是这个Agent所具备的Tool，如“Wanx Image Generation”就是画画的，“高德天气”就是查天气的，这2个要勾选上，因为Agent要用到。
 
-<img src="./imgs/Agent_配置.png" width="75%">
+<img src="./imgs/Agent_配置.png" width="50%">
 
-1. 体验我们的Agent
+3. 体验我们的Agent
 好了，现在就可以在右边的聊天框里体验我们的Agent了，这里我输入指令
 
 ```
@@ -99,11 +99,11 @@ OpenAI应用研究主管翁丽莲(Lilian Weng)撰写过一篇blog: [LLM Powered 
 
 它很给力的查出了广州的天气，并将其画了出来。
 
-<img src="./imgs/问Agent_1.png" width="75%">
+<img src="./imgs/问Agent_1.png" width="50%">
 
 咱们再点开这几个▶试试
 
-<img src="./imgs/问Agent_2.png" width="75%">
+<img src="./imgs/问Agent_2.png" width="50%">
 
 可以看到，在我发出指令后，Agent就已经将我的指令拆分成“天气查询”和“画图”这2个子任务了，并成功的调用了对应的工具完成任务~
 
