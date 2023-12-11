@@ -23,8 +23,8 @@ Agent一词起源于拉丁语中的Agere，意思是“to do”。在LLM语境�
 <div align=center>
 <figure>
   <img src="./imgs/using_ChatGPT.png" alt="ChatGPT" width="50%">
-  <figcaption>笔者向ChatGPT咨询专业问题，回答的头头是道</figcaption>
 </figure>
+<p>（笔者向ChatGPT咨询专业问题，回答的头头是道）</p>
 </div>
 
 
@@ -33,8 +33,8 @@ Agent一词起源于拉丁语中的Agere，意思是“to do”。在LLM语境�
 <div align=center>
 <figure>
   <img src="./imgs/ask_weather.png" alt="问天气" width="50%">
-  <figcaption>ChatGPT无法回答天气信息</figcaption>
 </figure>
+<p>（ChatGPT无法回答天气信息）</p>
 </div>
 
 
@@ -42,6 +42,7 @@ Agent一词起源于拉丁语中的Agere，意思是“to do”。在LLM语境�
 
 1. 无法浏览互联网
 2. 无法获取当前日期
+
 至于为什么ChatGPT连当前日期都获取不了，这就得先了解下LLM的原理了。
 
 关于ChatGPT等LLM最基本的原理，Datawhale有一篇专门的[教程(so-large-lm)](https://github.com/datawhalechina/so-large-lm)，其引言部分写的比较详细。这里我简单阐述下其原理
@@ -65,8 +66,8 @@ OpenAI应用研究主管翁丽莲(Lilian Weng)撰写过一篇blog: [LLM Powered 
 <div align=center>
 <figure>
   <img src="./imgs/Agent_bone.png" alt="ChatGPT" width="100%">
-  <figcaption>Lilian Weng定义的Agent结构图</figcaption>
 </figure>
+<p>（Lilian Weng定义的Agent结构图）</p>
 </div>
 
 其中，LLM是Agent的大脑，属于“中枢”模型，要求有以下3种能力：
