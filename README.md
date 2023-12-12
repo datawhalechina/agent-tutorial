@@ -9,7 +9,7 @@
 
 ## 教程大纲
 第1章：Agent入门简介
-- [Agent原理](./notebook/第一章：Agent简介/Agent原理.md)
+- [Agent原理](./notebook/第一章：Agent简介/1.1%20Agent原理.md)
 - [Agent原理深入+环境配置](./notebook/第一章：Agent简介/1.2%20Agent原理深入+环境配置.md)
 
 第2章：Agent实践：日程规划小助手
