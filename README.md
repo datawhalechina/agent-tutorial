@@ -14,7 +14,7 @@
 
 第2章：Agent实践：日程规划小助手
 - [高德开放API实践](./notebook/第二章：Agent实践/2.1%20高德开放API实践.md)
-- [基础准备：日程规划小助手](./notebook/第二章：Agent实践/2.2%20日程规划小助手.md)
+- [日程规划小助手](./notebook/第二章：Agent实践/2.2%20日程规划小助手.md)
 
 第3章：Agent应用展望
 - [Agent通用创作思路](./notebook/第三章：Agent应用展望/3.1%20Agent通用创作思路.md)
